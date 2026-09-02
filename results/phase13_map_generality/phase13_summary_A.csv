@@ -1,0 +1,7 @@
+family,acc_mean,lam_mean
+cubic,,
+logistic,0.0626,1.4147
+lorenz,0.2899,-0.1263
+rossler,0.4226,-0.0784
+sine,0.1854,-0.0211
+tent,0.0699,0.3982

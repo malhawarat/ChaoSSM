@@ -1,0 +1,5 @@
+task,family,chaotic_mean,periodic_mean,mean_diff,ci_low,ci_high,cliffs_delta,p,chaos_helps
+copy,chaossm_free,0.1459,0.1502,-0.0043,-0.0107,0.0012,-0.68,0.0625,False
+copy,chaossm_corridor,0.1462,0.1511,-0.005,-0.0095,-0.0007,-0.52,0.1875,False
+selective_copy,chaossm_free,0.091,0.0924,-0.0013,-0.0033,0.0011,-0.6,0.3125,False
+selective_copy,chaossm_corridor,0.0899,0.0935,-0.0036,-0.0088,0.0002,-0.48,0.0625,False

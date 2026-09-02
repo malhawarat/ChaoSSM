@@ -1,0 +1,4 @@
+task,cell,chaos_mean,linear_mean,mean_diff,ci_low,ci_high,cliffs_delta,chaos_helps
+copy,frozen/edge/nogate,0.0854,0.0621,0.0233,0.0077,0.0497,1.0,True
+copy,frozen/deep/nogate,0.0728,0.0621,0.0107,0.006,0.015,1.0,True
+forecast,frozen/edge/nogate,0.8248,0.8755,-0.0507,-0.0674,-0.0326,-1.0,False

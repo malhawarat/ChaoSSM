@@ -1,0 +1,5 @@
+arm,is_periodic,benettin_mean,benettin_std,benettin_min,benettin_max,n,chaotic
+chaossm_free,False,-0.1371,0.0776,-0.2301,-0.0469,5,False
+chaossm_free_periodic,True,-0.2247,0.1011,-0.36,-0.0791,5,False
+chaossm_corridor,False,-0.1236,0.0978,-0.2362,-0.0337,5,False
+chaossm_corridor_periodic,True,-0.1848,0.0982,-0.2974,-0.052,5,False

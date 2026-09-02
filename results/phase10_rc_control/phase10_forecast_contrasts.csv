@@ -1,0 +1,4 @@
+task,input,regime,chaos_mean,linear_mean,chaos_lt_linear_seeds,sign_p,verdict
+forecast,trained,edge,0.8238,0.8755,5/5,0.0625,chaos<linear
+forecast,random,edge,0.4618,0.2509,0/5,0.0625,chaos>=linear
+forecast,random,deep,0.2506,0.2509,2/5,1.0,chaos<linear

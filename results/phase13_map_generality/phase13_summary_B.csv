@@ -1,0 +1,7 @@
+family,chaos,linear
+cubic,0.2587,0.3212
+logistic,0.6511,0.3212
+lorenz,0.7038,0.3212
+rossler,0.6784,0.3212
+sine,0.4333,0.3212
+tent,0.399,0.3212
