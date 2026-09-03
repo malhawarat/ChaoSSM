@@ -4,9 +4,9 @@ Code, notebooks, and results for **"Chaos helps until it is trained: an edge-of-
 succeeds where end-to-end training of the same dynamics fails."**
 
 Submitted to *Chaos, Solitons & Fractals*. This repository covers the code and experimental
-results; the manuscript itself is not included while it is under journal consideration.
+results.
 
-## TL;DR
+## Summary
 
 The edge-of-chaos hypothesis says recurrent systems poised near criticality should have richer
 memory and computational capacity than ordered (non-chaotic) ones. We test this directly with a
