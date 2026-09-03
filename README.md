@@ -4,9 +4,9 @@ Code, notebooks, and results for **"Chaos helps until it is trained: an edge-of-
 succeeds where end-to-end training of the same dynamics fails."**
 
 Submitted to *Chaos, Solitons & Fractals*. This repository covers the code and experimental
-results.
+results; the manuscript itself is not included while it is under journal consideration.
 
-## Summary
+## TL;DR
 
 The edge-of-chaos hypothesis says recurrent systems poised near criticality should have richer
 memory and computational capacity than ordered (non-chaotic) ones. We test this directly with a
@@ -42,9 +42,9 @@ ChaoSSM/
 │   ├── ChaoSSM_Phase13_Map_Generality_v2.ipynb            # generality across 6 chaotic systems (incl. Lorenz, Rossler)
 │   └── superseded_pilots/  # early pilot notebooks (Phase 0-2, plus early Phase 3a/3b attempts), not used in the reported results -- see note below
 ├── results/                # CSVs and JSON verdicts, also saved inline in each notebook's outputs
-└── figures/                # source scripts for figures generated outside Colab
-    ├── fig1_architecture.py     # cell/block architecture schematic
-    └── fig7_generality.py       # six-system generality bar chart
+└── figures/                # the 7 figures embedded in the manuscript, as rendered PNGs
+    ├── fig1.png ... fig7.png    # fig1 = architecture schematic, fig7 = six-system generality chart;
+                                  # figs 2-6 are also produced inline by their corresponding notebook
 ```
 
 Notebooks are provided **executed**, with real outputs, printed results tables, and inline
