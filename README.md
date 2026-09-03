@@ -40,7 +40,7 @@ ChaoSSM/
 │   ├── ChaoSSM_Phase11_Ungated_EndToEnd.ipynb             # ungated end-to-end training control
 │   ├── ChaoSSM_Phase12_Gamma_Projected_Training.ipynb     # gamma-projected training (proxy-free Lyapunov control)
 │   ├── ChaoSSM_Phase13_Map_Generality_v2.ipynb            # generality across 6 chaotic systems (incl. Lorenz, Rossler)
-│   └── superseded_pilots/  # early pilot notebooks (Phase 0-2), not used in the reported results -- see note below
+│   └── superseded_pilots/  # early pilot notebooks (Phase 0-2, plus early Phase 3a/3b attempts), not used in the reported results -- see note below
 ├── results/                # CSVs and JSON verdicts, also saved inline in each notebook's outputs
 └── figures/                # source scripts for figures generated outside Colab
     ├── fig1_architecture.py     # cell/block architecture schematic
@@ -55,14 +55,17 @@ outputs and re-executing on Google Colab with a T4 GPU (or CPU at reduced scale,
 
 ### About `notebooks/superseded_pilots/`
 
-Before the results reported in the paper, we ran three earlier pilot phases (Phase 0: initial
-chaotic-map and regularizer mechanism validation; Phase 1: an early synthetic-task comparison
-against a linear-SSM baseline; Phase 2: representational similarity analysis and robustness
-characterization). Phase 1's harness had a bug that inflated the apparent difficulty of the
-comparison; this was found and fixed, and Phase 3b' ("harness fix") is the corrected replacement
-that the paper actually reports. We include the original Phase 0-2 notebooks here for
-transparency into the project's full history, but **none of their numbers appear in the
-manuscript** -- only Phase 3b' onward is part of the reported evidence.
+Before the results reported in the paper, we ran a longer arc of earlier pilot work: Phase 0
+(a-d, chaotic-map and regularizer mechanism validation and correction), Phase 1 (+1b-1d, an early
+synthetic-task comparison against a linear-SSM baseline), Phase 2 (a-e, representational
+similarity analysis and robustness characterization), early Phase 3a attempts at a real Mamba-2
+baseline, and an abandoned Phase 3b confirmatory battery. Phase 1's harness had a bug that
+inflated the apparent difficulty of the comparison; this was found and fixed, and Phase 3b'
+("harness fix"), in the main `notebooks/` folder, is the corrected replacement that the paper
+actually reports. We include all of the original pilot notebooks here for transparency into the
+project's full history -- see `notebooks/superseded_pilots/NOTE.md` for what each one covers --
+but **none of their numbers appear in the manuscript**; only Phase 3b' onward is part of the
+reported evidence.
 
 ## Key results (summary)
 
