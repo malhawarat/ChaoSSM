@@ -47,3 +47,25 @@ construction:
 - `Phase3b_Confirmatory_Battery.ipynb` -- an n=15 confirmatory battery, stopped before completion
   when the project's framing pivoted to the fork-in-the-road fair test (Phase 9); not run to
   completion and not part of the reported results.
+
+## Phase 13 generality runs (a-c) -- superseded by Phase 13d
+
+Added in the revision. These three runs asked whether the frozen-reservoir benefit is a property
+of the specific chaotic map or of frozen nonlinear reservoirs generally. All three trained the
+input encoder alongside the readout:
+
+- `ChaoSSM_Phase13_Map_Generality_v2.ipynb` -- the original n=3 sweep across six chaotic systems.
+- `ChaoSSM_Phase13b_Ordered_Control.ipynb` -- added an ordered-regime arm.
+- `ChaoSSM_Phase13c_Ordered_Control_n5.ipynb` -- scaled to n=5 seeds.
+
+Training the input encoder departs from the canonical reservoir-computing protocol, in which the
+recurrence *and* the input weights are both fixed and random and only the readout is trained. It
+let the optimizer find degenerate input embeddings, and the cubic and sine "collapses" these runs
+reported were an artifact of that: with the encoder frozen, none of the 60 runs collapses below
+its linear control, and the linear control itself moves into agreement with the Phase 14 value
+(0.238 vs. 0.251). The accuracies these runs report (roughly 0.65-0.70 on the logistic map and the
+ODE flows) are correspondingly inflated relative to the canonical-protocol values (0.35-0.42).
+
+`ChaoSSM_Phase13d_Ordered_Control_Canonical.ipynb`, in the parent `notebooks/` folder, is the
+corrected replacement, and is what the manuscript reports. The figure these runs produced is
+likewise superseded by the current Figure 11.
