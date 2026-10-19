@@ -1,11 +1,10 @@
 # ChaoSSM
 
-Code, notebooks, and results for **"Neither chaos nor criticality: training suppresses chaos,
-and task-matched memory decides which frozen reservoir helps."**
+Code, notebooks, and results for **"Task-Matched Memory, Not Criticality, Decides Which Frozen
+Reservoir Helps."**
 
-Under review at *Chaos, Solitons & Fractals* (CHAOS-D-26-09018, revised submission). This
-repository covers the code and experimental results; the manuscript itself is not included while
-it is under journal consideration.
+Submitted to *Entropy* (MDPI). This repository covers the code and experimental results; the
+manuscript itself is not included while it is under journal consideration.
 
 > **Note on an earlier version of this README.** An earlier revision of this file reported that
 > the frozen edge-of-chaos reservoir's advantage was a benefit of criticality, "exactly as
@@ -134,12 +133,13 @@ If you use this code, please cite:
 
 ```bibtex
 @article{alhawarat2026chaossm,
-  title   = {Neither chaos nor criticality: training suppresses chaos, and
-             task-matched memory decides which frozen reservoir helps},
-  author  = {Alhawarat, Mohammad and Elsimary, Hamed and Aburrub, Khalid Rafi},
-  journal = {Chaos, Solitons \& Fractals},
+  title   = {Task-Matched Memory, Not Criticality, Decides Which Frozen
+             Reservoir Helps},
+  author  = {Alhawarat, Mohammad and Elsimary, Hamed and Shalaldeh, Ahmad and
+             Aburrub, Khalid Rafi and Alnsour, Ayman},
+  journal = {Entropy},
   year    = {2026},
-  note    = {Under review}
+  note    = {Submitted}
 }
 ```
 
