@@ -1,0 +1,16 @@
+protocol,regime,target_lambda,seed,achieved_lambda,calib_ok,sync_D,sync_D_sd,train_diverged
+trained-input,ordered,-0.3,0,-0.2740735113620758,True,0.0,0.0,False
+trained-input,ordered,-0.3,1,-0.2775828540325165,True,0.0,0.0,False
+trained-input,ordered,-0.3,2,-0.2738511264324188,True,0.0,0.0,False
+trained-input,ordered,-0.3,3,-0.2756766378879547,True,0.0,0.0,False
+trained-input,ordered,-0.3,4,-0.2771558165550232,True,0.0,0.0,False
+trained-input,edge,-0.02,0,0.014893236570060253,True,0.0,0.0,False
+trained-input,edge,-0.02,1,0.008657719939947128,True,0.0,0.0,False
+trained-input,edge,-0.02,2,0.008781918324530125,True,0.0,0.0,False
+trained-input,edge,-0.02,3,0.017236676067113876,True,0.0,0.0,False
+trained-input,edge,-0.02,4,0.013328748755156994,True,0.0,0.0,False
+trained-input,deep,0.3,0,0.2717806100845337,True,0.32049839082174003,0.016070461694754224,False
+trained-input,deep,0.3,1,0.292647123336792,True,0.3519564630556852,0.010798525676939511,False
+trained-input,deep,0.3,2,0.32123368978500366,True,0.3559336046036333,0.0066752672971032425,False
+trained-input,deep,0.3,3,0.30606091022491455,True,0.40672274608165027,0.010420574781885345,False
+trained-input,deep,0.3,4,0.2728066146373749,True,0.3254379526153207,0.00704609462202964,False

@@ -1,0 +1,17 @@
+arm,delay,mean,std
+chaossm_free,4,1.0,0.0
+chaossm_free,12,1.0,0.0
+chaossm_free,24,1.0,0.0
+chaossm_free,48,0.2242,0.18711313422632844
+chaossm_free_periodic,4,1.0,0.0
+chaossm_free_periodic,12,1.0,0.0
+chaossm_free_periodic,24,1.0,0.0
+chaossm_free_periodic,48,0.8439,0.21376108158409002
+gru,4,1.0,0.0
+gru,12,1.0,0.0
+gru,24,1.0,0.0
+gru,48,1.0,0.0
+linear,4,1.0,0.0
+linear,12,0.9875,0.027950849718747377
+linear,24,0.14279999999999998,0.179169124014156
+linear,48,0.0631,0.007885112554681765

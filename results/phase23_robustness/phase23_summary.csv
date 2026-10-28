@@ -1,0 +1,8 @@
+variant,axis,ordered,edge,deep,linear,edge-linear,ordered-edge,edge-deep,ordering_preserved
+baseline,baseline,0.355,0.3297,0.2182,0.2504,0.0793,0.0253,0.1115,True
+width=32,width,0.2966,0.2799,0.2024,0.2403,0.0396,0.0167,0.0775,True
+width=128,width,0.4869,0.4222,0.234,0.2543,0.1679,0.0648,0.1882,False
+norm=none,norm,0.3113,0.2989,0.218,0.2488,0.0502,0.0123,0.0809,True
+norm=zscore,norm,0.3737,0.3403,0.2182,0.2527,0.0876,0.0334,0.1221,True
+readout=mlp,readout,0.7488,0.706,0.3028,0.5164,0.1896,0.0428,0.4032,True
+depth=2,depth,0.405,0.3382,0.1797,0.2482,0.09,0.0667,0.1586,False

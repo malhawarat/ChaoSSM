@@ -1,0 +1,7 @@
+variant,diverged,n,div_rate,mean_acc
+baseline,8,8,1.0,
+smaller_lr_1e-5,4,8,0.5,0.0323
+tight_clip_0.1,6,8,0.75,0.0333
+smoothed_fold,5,8,0.62,0.06
+trunc_bptt_8,0,8,0.0,0.4304
+small_lr+clip,3,8,0.38,0.0308
