@@ -103,8 +103,12 @@ ChaoSSM/
 └── figures/                # the 17 figures in the manuscript, as rendered PNGs (see map below)
 ```
 
-Notebooks are provided **executed**, with real outputs, printed results tables, and inline
-figures, so the paper's numbers can be inspected without rerunning anything. Each notebook is
+Most notebooks are provided **executed**, with real outputs, printed results tables, and inline
+figures, so the paper's numbers can be inspected without rerunning anything. Five are currently
+committed **without** outputs — `Phase13d_Ordered_Control_Canonical`, `Phase14_Regime_Controls`,
+`Phase15_Lambda_Sweep`, `Phase16_MackeyGlass_Canonical` and `Phase17_Memory_Demand`. Their
+per-run result files are complete and are in `results/`, so the numbers those phases contribute
+to the manuscript remain fully inspectable; only the executed notebooks are pending. Each notebook is
 self-contained; reproducing a run from scratch means clearing outputs and re-executing on Google
 Colab (a T4 or L4 GPU is sufficient; several phases run faster on CPU, as noted in their config
 cells). Phases 18–24 are resumable: they checkpoint to Google Drive and skip completed runs.
