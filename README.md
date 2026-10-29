@@ -109,10 +109,6 @@ self-contained; reproducing a run from scratch means clearing outputs and re-exe
 Colab (a T4 or L4 GPU is sufficient; several phases run faster on CPU, as noted in their config
 cells). Phases 18–24 are resumable: they checkpoint to Google Drive and skip completed runs.
 
-> **One exception.** `ChaoSSM_Phase21_Trained_LongDep.ipynb` is currently committed **without**
-> outputs. Its results are nevertheless complete and are in `results/phase21_trained_longdep/`;
-> only the executed notebook is pending.
-
 `data/santafe_laser.csv` is the Santa Fe Time Series Prediction Competition laser series
 (Weigend & Gershenfeld, 1993), 10,093 native points, included so that Phase 18 reproduces without
 relying on an external mirror. The file carries a provenance header.
